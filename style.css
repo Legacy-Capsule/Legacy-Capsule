@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+}
+
+.earth-container {
+  margin: 40px 0;
+}
+
+#earth {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 60px rgba(0, 150, 255, 0.6);
+}
+
+.message {
+  font-size: 1.4rem;
+  max-width: 700px;
+  margin: 40px auto;
+  line-height: 1.5;
+}
+
+.buy-btn {
+  background: #00ccff;
+  color: #000;
+  font-size: 1.3rem;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.countdown {
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
