@@ -1,57 +1,67 @@
 body {
   margin: 0;
   padding: 0;
-  background: #0a0a1f;
-  color: #ddd;
-  font-family: system-ui, sans-serif;
+  background: #05050f;
+  color: #e0e0ff;
+  font-family: system-ui, -apple-system, sans-serif;
   text-align: center;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 860px;
   padding: 40px 20px;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #fff;
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+  letter-spacing: 1px;
 }
 
 .earth-container {
-  margin: 40px 0;
+  margin: 50px 0 40px;
 }
 
 #earth {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 0 0 80px rgba(100, 180, 255, 0.7);
-  cursor: pointer;
+  box-shadow: 0 0 90px rgba(80, 160, 255, 0.8);
+  transition: transform 0.4s ease;
+}
+
+#earth:hover {
+  transform: scale(1.03);
 }
 
 .message {
-  font-size: 1.35rem;
-  max-width: 700px;
+  font-size: 1.45rem;
+  max-width: 720px;
   margin: 40px auto;
-  line-height: 1.6;
+  line-height: 1.7;
+  opacity: 0.95;
 }
 
 .buy-btn {
-  background: #00aaff;
+  background: linear-gradient(135deg, #00ccff, #0099cc);
   color: #000;
-  font-size: 1.4rem;
-  padding: 18px 50px;
+  font-size: 1.45rem;
+  padding: 18px 55px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   margin: 30px 0;
-  font-weight: bold;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0, 204, 255, 0.3);
 }
 
 .countdown {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   margin-top: 20px;
-  color: #88ccff;
+  color: #88ddff;
+  font-weight: 500;
 }
