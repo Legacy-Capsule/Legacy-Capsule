@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000;
-  color: #fff;
+  background: #0a0a1f;
+  color: #ddd;
   font-family: system-ui, sans-serif;
   text-align: center;
+  min-height: 100vh;
 }
 
 .container {
@@ -14,8 +15,9 @@ body {
 }
 
 h1 {
-  font-size: 2.8rem;
-  margin-bottom: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #fff;
 }
 
 .earth-container {
@@ -25,28 +27,31 @@ h1 {
 #earth {
   max-width: 100%;
   border-radius: 50%;
-  box-shadow: 0 0 60px rgba(0, 150, 255, 0.6);
+  box-shadow: 0 0 80px rgba(100, 180, 255, 0.7);
+  cursor: pointer;
 }
 
 .message {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   max-width: 700px;
   margin: 40px auto;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .buy-btn {
-  background: #00ccff;
+  background: #00aaff;
   color: #000;
-  font-size: 1.3rem;
-  padding: 16px 40px;
+  font-size: 1.4rem;
+  padding: 18px 50px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  margin: 20px;
+  margin: 30px 0;
+  font-weight: bold;
 }
 
 .countdown {
-  font-size: 1.2rem;
-  margin-top: 30px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #88ccff;
 }
